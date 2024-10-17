@@ -1,0 +1,30 @@
+# Node.js dependencies
+node_modules/
+
+# Docker
+Dockerfile
+
+# Auth info for WhatsApp Baileys (do not track session/auth files)
+auth_info_baileys/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables file
+.env
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore npm and Yarn files that should not be committed
+package-lock.json
+yarn.lock
+
+# Ignore specific IDE/Editor files
+.idea/
+.vscode/
+
